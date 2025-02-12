@@ -45,6 +45,7 @@ Options:
   -c <char>, --char <char>      Use <char> to draw the bars. [default: █]
   -f <cmd>, --filter <cmd>      Filter output through <cmd> before creating the
                                 the histogram.
+  -s <date>, --since <date>     Filter git log since <date>. [default: always]
   -a, --all                     Include directories and parent directories of
                                 files in the histogram. [default: false]
   -h                            Show this message.
