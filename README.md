@@ -65,6 +65,11 @@ Options:
   
   If you want to heatmap files, directories and their parent directories, use
   `--all` instead.
+
+- **How do I filter files owned by OWNER according to CODEOWNERS?**
+
+  Try [codeowners](https://github.com/hmarr/codeowners) tool:
+  `--filter 'xargs codeowners -o OWNER'`.
   
 ## License
 
